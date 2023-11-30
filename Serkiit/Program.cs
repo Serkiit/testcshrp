@@ -13,3 +13,19 @@ void SecondArreyWithIF(string[] array1, string[]arrey2)
     }
 }
 
+void PrintArrey(string[]array)
+{
+    for (int i = 0;i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+
+
+
+
+
+
+SecondArreyWithIF(array1,array2);
+PrintArrey(array2);
